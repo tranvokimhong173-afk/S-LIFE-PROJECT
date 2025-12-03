@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 
 const aiRoutes = require('./src/routes/ai.routes');
-const emailRoutes = require('./src/routes/email.routes');
-const utilsRoutes = require('./src/routes/utils.routes');
 
 app.use(express.json());
 
